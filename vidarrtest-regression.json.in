@@ -8,7 +8,11 @@
           "configuration": "/.mounts/labs/gsi/testdata/crosscheckFingerprintsCollector/input_data/test_2lanes.cram",
           "externalIds": [
             {
-              "id": "TEST",
+              "id": "TEST_ID_1",
+              "provider": "TEST"
+            },
+            {
+              "id": "TEST_ID_2",
               "provider": "TEST"
             }
           ]
@@ -20,7 +24,11 @@
           "configuration": "/.mounts/labs/gsi/testdata/crosscheckFingerprintsCollector/input_data/test_2lanes.cram.crai",
           "externalIds": [
             {
-              "id": "TEST",
+              "id": "TEST_ID_1",
+              "provider": "TEST"
+            },
+            {
+              "id": "TEST_ID_2",
               "provider": "TEST"
             }
           ]
@@ -57,33 +65,57 @@
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "outputTbi": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "json": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "samstats": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           }
         },
         {
@@ -92,33 +124,57 @@
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "outputTbi": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "json": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "samstats": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_CRAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           }
         }
       ]
@@ -143,7 +199,11 @@
           "configuration": "/.mounts/labs/gsi/testdata/crosscheckFingerprintsCollector/input_data/test_2lanes.bam",
           "externalIds": [
             {
-              "id": "TEST",
+              "id": "TEST_ID_1",
+              "provider": "TEST"
+            },
+            {
+              "id": "TEST_ID_2",
               "provider": "TEST"
             }
           ]
@@ -155,7 +215,11 @@
           "configuration": "/.mounts/labs/gsi/testdata/crosscheckFingerprintsCollector/input_data/test_2lanes.bam.bai",
           "externalIds": [
             {
-              "id": "TEST",
+              "id": "TEST_ID_1",
+              "provider": "TEST"
+            },
+            {
+              "id": "TEST_ID_2",
               "provider": "TEST"
             }
           ]
@@ -190,33 +254,57 @@
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "outputTbi": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "json": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "samstats": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_1",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           }
         },
         {
@@ -225,33 +313,57 @@
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "outputTbi": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "json": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           },
           "samstats": {
             "contents": [
               {
                 "outputDirectory": "@SCRATCH@/@DATE@_Workflow_crosscheckFingerprintsCollectorMultiLane_TEST_0001_WG_HG38_BAM_MULTILANE@JENKINSID@"
-              }
+              },
+              [
+                {
+                  "id": "TEST_ID_2",
+                  "provider": "TEST"
+                }
+              ]
             ],
-            "type": "ALL"
+            "type": "MANUAL"
           }
         }
       ]
